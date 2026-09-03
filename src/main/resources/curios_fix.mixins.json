@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.curiosfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "verbose": true,
+  "mixins": [
+    "MixinCurioInventoryWrapper"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

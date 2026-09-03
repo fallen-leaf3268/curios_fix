@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="curios_fix"
+version="1.0.0"
+displayName="Curios Fix"
+authors="Example"
+description='''
+Fixes a bug where extra slots from +1 slot curios would drop items when the player respawns or re-enters a world.
+This mod must be loaded AFTER Curios.
+'''
+
+[[dependencies.curios_fix]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.curios_fix]]
+modId="curios"
+mandatory=true
+versionRange="[5.14.0,)"
+ordering="AFTER"
+side="BOTH"
